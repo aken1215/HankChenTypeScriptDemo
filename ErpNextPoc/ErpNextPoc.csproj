@@ -278,7 +278,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>TypeLite.Net4.d.ts</LastGenOutput>
     </Content>
-    <Content Include="TypeScripts\Bases\base.html" />
     <Content Include="TypeScripts\Controllers\MemberLogin\member.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -299,6 +298,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="TypeScripts\Bases\" />
     <Folder Include="TypeScripts\Components\" />
   </ItemGroup>
   <ItemGroup>
