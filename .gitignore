@@ -243,3 +243,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+*.js
+*.ttinclude
+*.ts
+*.map

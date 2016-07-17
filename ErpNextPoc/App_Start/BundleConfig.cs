@@ -16,6 +16,27 @@ namespace ErpNextPoc
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+            bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+                "~/Scripts/angular.js",
+                "~/Scripts/angular-ui-router.js"
+                ));
+
+            bundles.Add(new ScriptBundle("~/bundles/app").Include(
+                 //// Root
+                 "~/TypeScripts/app.js",
+                 //// Config
+                 "~/TypeScripts/Configs/config.js",
+                 "~/TypeScripts/Configs/config.route.js",
+                 //// Components
+
+                 //// Service
+                 "~/TypeScripts/Services/member.service.js",
+                 //// Controller/Member
+                 "~/TypeScripts/Controllers/memberLogin/member.controller.js",
+                 "~/TypeScripts/Base/base.controller.js",
+                 "~/TypeScripts/Controllers/memberLogin/member.route.js"
+                 ));
+
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
