@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpNextPoc", "ErpNextPoc\ErpNextPoc.csproj", "{B6013105-684A-40BE-BE3D-5F4995D9E3B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "..\Temps\Test\ErpNextPOC\ViewModel\ViewModel\ViewModel.csproj", "{CF191AF8-7BEE-462F-99F3-983A6381841B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel\ViewModel.csproj", "{CF191AF8-7BEE-462F-99F3-983A6381841B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

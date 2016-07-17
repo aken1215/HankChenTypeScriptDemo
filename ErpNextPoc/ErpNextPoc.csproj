@@ -341,7 +341,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Temps\Test\ErpNextPOC\ViewModel\ViewModel\ViewModel.csproj">
+    <ProjectReference Include="..\ViewModel\ViewModel\ViewModel.csproj">
       <Project>{cf191af8-7bee-462f-99f3-983a6381841b}</Project>
       <Name>ViewModel</Name>
     </ProjectReference>
